@@ -9,6 +9,7 @@
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
 <img src="images/mainpage.png" width="600">
+<img src="images/gamepage.png" width="600">
 
 ## Project Brief
 
@@ -25,20 +26,38 @@ A person's name tells a lot about one’s identity. Albeit subconsciously, once 
 
 ## Part 2: Experiment & Critical Analysis 
 
-Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People by Forbes](https://www.forbes.com/powerful-people/list/
-).
+Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People](https://www.forbes.com/powerful-people/list/
+) by Forbes.
 
 ### NYUAD Interactive Media Faculty
 
+
+<img src="images/IMfaculty.png" width="600">
+
 Professor Mathura's In this simplification, three different professors Michael Allison, Michael . This shows how depending of how we process the data, the outcome can be significantly different. 
+
+
+**List of IM faculties in Abu Dhabi**
+- Aaron Sherwood
+- Michael Allison
+- Michael Ang
+- Joerg Blumtritt
+- Heather Dewey-Hagborg
+- Jonny Farrow
+- Mathura Govindarajan
+- Michael Shiloh
+
+
 
 
 
 ### NYUAD Computer Science Faculty
 
-Some names were simply not 
+<img src="images/CSfaculty.png" width="600">
 
-I hope people 
+Some names were simply not available in the dataset. Since most of the data are collected from Western countries, alini
+
+
 
 **List of CS faculties in Abu Dhabi**
 - Azza Abouzied
@@ -59,28 +78,18 @@ I hope people
 - Yasir Zaki
 
 
-### 10 Most Influential People in 2022
-- Azza Abouzied
-- Moumena Chaqfeh
-- Alex Delis
-- Djellel Difallah
-- Nizar Habash
-- Lefteris Kirousis
-- Azzam Mourad
-- Sana Odeh
-- Mai Oudah
-- Christina Pöpper
-- Thomas Potsch
-- Talal Rahwan
-- Saurabh Ray
-- Riyadh Baghdadi
-- Hanan Salam
-- Yasir Zaki
+### 10 Most Powerful People
 
+<img src="images/powerfulpeople.png" width="600">
 
-## NYUAD Interactive Media Faculty
-
-
-## 10 Most Influential People in 2022
-I hope people 
-
+**List of 10 Most Powerful People**
+- Xi Jinping
+- Vladimir Putin
+- Donald Trump
+- Angela Merkel
+- Jeff Bezos
+- Pope Francis
+- Bill Gates
+- Mohammed bin Salman Al Saud
+- Narendra Modi
+- Larry Page
