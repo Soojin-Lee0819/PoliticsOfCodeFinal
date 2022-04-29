@@ -25,7 +25,8 @@ A person's name tells a lot about one’s identity. Albeit subconsciously, once 
 
 ## Part 2: Experiment & Critical Analysis 
 
-Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the The World's Most Powerful People by Forbes. 
+Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People by Forbes](https://www.forbes.com/powerful-people/list/
+).
 
 ### NYUAD Interactive Media Faculty
 
@@ -59,6 +60,22 @@ I hope people
 
 
 ### 10 Most Influential People in 2022
+- Azza Abouzied
+- Moumena Chaqfeh
+- Alex Delis
+- Djellel Difallah
+- Nizar Habash
+- Lefteris Kirousis
+- Azzam Mourad
+- Sana Odeh
+- Mai Oudah
+- Christina Pöpper
+- Thomas Potsch
+- Talal Rahwan
+- Saurabh Ray
+- Riyadh Baghdadi
+- Hanan Salam
+- Yasir Zaki
 
 
 ## NYUAD Interactive Media Faculty
