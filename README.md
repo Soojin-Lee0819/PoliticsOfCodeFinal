@@ -6,7 +6,7 @@
 **Date**: 20 Apr - 2 May 2022 <br>
 **Deliverable**: 1. CSS/HTML/Javascript/API Data Visualization 2. Experiment & Critical Analysis <br>
 
-[Access Project Here](https://soojin-lee0819.github.io/Politics_of_Code_Final)
+[Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
 <img src="images/mainpage.png" width="600">
 
