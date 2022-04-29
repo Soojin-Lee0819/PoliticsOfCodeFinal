@@ -1,0 +1,64 @@
+<!-- 
+Connections Lab Project 1
+Names Around the World
+10-26 Feb 2022
+Soojin Lee
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- importing font-->
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Section 1: Landing Page -->
+  <div class="instruction">
+    <!-- Soojin Circle -->
+    <div class="soojinCircle">
+      <p span class="soojinName"></p>
+    </div>
+    <!-- Joerg Circle -->
+    <div class="JoergCircle">
+      <p span class="joergName"></p>
+    </div>
+    <!-- Main Circle -->
+    <div class="mainCircle">
+      <div id="circleText">
+        <h1>What Data Tells About <br> Our Names (or Not)</h1>
+        <p> Where is Soojin from? How old is Joerg? Hover to find out what data says about
+          these names. Click START to find out more!
+        </p>
+        <!-- Start Button -->
+        <input type="submit" id="play" value="START" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1: Visualization Page -->
+  <div id="game">
+    <h1>Who are they?</h1>
+    <p>Type in the names of the group of the people you would like to learn more about.
+    <!-- User Input Name -->
+    <p><input id="name" value="" placeholder="name"> </input>
+      <!-- Submit Name Button -->
+      <input type="submit" id="submit" value="Submit" />
+    </p>
+    <!-- Container "dataOutput"  -->
+    <div id="canvas">
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+<script src="app.js"></script>
+<script src="bubble.js"></script>
+<script src="endgame.js"></script>
+
+</html>

@@ -1,0 +1,223 @@
+html, body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: #DC836F;
+    font-family: 'Gamja Flower', cursive;
+    color:white;
+  }
+
+  /*Section 1: Landing Page*/
+.instruction {
+  background-color: #EFD9CC;
+  width: 100vw;
+  height:100vh;
+  margin:0;
+}
+
+/*Soojin Bubble*/
+.soojinCircle {
+  background: radial-gradient(#F3D47E, #CB4B2F);
+  width: 15vw;
+  height: 15vw;
+  margin-left:10vw;
+  margin-top:10vw;
+  position: absolute;
+  border-radius: 50%;
+  color:white;
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+}
+
+
+.soojinCircle p , .JoergCircle p {
+  width:100%;
+}
+
+.soojinName:after{
+  content:'Soojin';
+}
+.soojinName:hover:after{
+  font-size: 1.8vw;
+  content:"Soojin \A South Korea \A 43 yrs";
+  white-space: pre-wrap;
+}
+
+/*Joerg Bubble*/
+
+.JoergCircle {
+  background: radial-gradient(#9BE8D5, #899979);
+  width: 15vw;
+  height: 15vw;
+  right:10vw;
+  bottom:10vw;
+  position: absolute;
+  border-radius: 50%;
+  color:white;
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.joergName:after{
+  content:'Joerg';
+}
+
+.joergName:hover:after{
+  font-size: 1.8vw;
+  content:"Joerg \A Germany \A 61 yrs";
+  white-space: pre-wrap;
+  margin:0;
+}
+
+/*Main Bubble*/
+.mainCircle {
+  background: radial-gradient(#C18FA7, #616093);
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  margin-left: 30vw;
+  display: flex;
+}
+
+#circleText{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mainCircle h1{
+  display: inline-block;
+  font-size: 3vw;
+}
+
+.mainCircle p{
+  width:70%;
+  margin:auto;
+  font-size: 1.8vw;
+}
+
+#play {
+  
+  font-size: 1.8vw;
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* add styles */
+  position:relative;
+  font-family: 'Gamja Flower', cursive;
+  width:20%;
+  padding:1vw;
+  margin-top:3vw;
+  font-size: 0.8em;
+  border:none;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  background-color: #2E1F59;
+  font-size: 1.8vw;
+}
+
+#play:hover {
+  background-color: #3f2b75;
+}
+
+
+
+/*Section 2: Game Page*/
+#game {
+  position:relative;
+  padding-top:5vw;
+}
+
+/*User Input*/
+#userInput {
+  margin:0;
+}
+
+#game p{
+  margin:auto;
+  width:60%;
+  padding:2vw;
+  border-width: 2px;
+  color:#ffffff;
+  font-size: 1.8vw;
+}
+
+#name{
+  appearance:none;
+  -webkit-appearance:none;
+  border:none;
+  padding:1vw;
+  font-size: 1.5vw;
+  font-family: 'Gamja Flower', cursive;
+  border-radius:5px;
+  width:30%;
+}
+
+#submit {
+
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+  
+    /* usual styles */
+    position:relative;
+    font-family: 'Gamja Flower', cursive;
+    width:10vw;
+    padding:1vw;
+    margin-top:3vw;
+    border:none;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    font-size: 1.5vw;
+    background-color: #2E1F59;
+}
+
+/*Data Output*/
+#dataOutput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   }
+
+#canvas {
+ margin-top:5vw;
+ position: relative;
+ margin-bottom:5vw;
+
+}
+
+
+/*Adjust size according to the window width*/
+
+@media only screen and (max-width: 800px) {
+
+  .mainCircle {
+    width: 60vw;
+    height: 60vw;
+    margin-left:20vw;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .mainCircle h1{
+  font-size: 3.5vw;
+}
+
+.mainCircle p{
+  font-size: 2vw;
+}
+#name #submit {
+  font-size: 0.6vw;
+}
+}
