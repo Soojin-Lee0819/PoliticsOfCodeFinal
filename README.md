@@ -1,7 +1,7 @@
 # Politics of Code Final
 
-**Title**: Who are these people according to Data?  <br>
-**Description**: Part 1: Developing the web-based data visualization of the predicted age, the nationality, and the gender of the names around the wrold.
+**Title**: What Data Tells About Us  <br>
+**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name. Using the web application, I explored different demographic groups and analyzed some existing biases and within the data as well as how it could impact. of the predicted age, the nationality, and the gender of the names around the wrold.
 Part 2: Using the data visualization model to understand the biases in names and the demographics of certain group seen through data <br>
 **Category**: Final Project <br>
 **Date**: 20 Apr - 2 May 2022 <br>
