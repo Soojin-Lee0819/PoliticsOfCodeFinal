@@ -9,6 +9,7 @@
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
 <img src="images/mainpage.png" width="600">
+<img src="images/gamepage.png" width="600">
 
 ## Project Brief
 
