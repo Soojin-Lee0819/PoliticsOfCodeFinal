@@ -35,7 +35,7 @@ On to this complex issues in data algorithm, human biases associated to names, a
 
 ## Part 1: Developing Data Visualization using API
 
-This project was developed upon the data visualization game project, which I made for the class ConnectionsLab. For the previous proejct, I only used two APIs (nationalize API and agify API) that give the predicted age and the nationality of the given name. Expanding on this project,I added the third API: **genderAPI** that gives the predicted gender of the game, to create a data visualization model that shows the demographic of the world explored through names.
+This project was developed upon the data visualization game project, which I made for the class ConnectionsLab. For the original proejct, I only used two APIs (nationalize API and agify API) that give the predicted age and the nationality of the given name. Elaborating on this project,I added the third API: **genderAPI** that gives the predicted gender of the game, and created a data visualization model that shows the demographic of the world explored through the assumptions about names.
 
 
 In total, I have used three APIs which are:
@@ -44,14 +44,40 @@ In total, I have used three APIs which are:
 
 [nationalize API](https://nationalize.io) - An API for predicting nationality from a name.
 
-[gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name
+[gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name. 
+
 
 **Landing Page**
-<img src="images/mainpage.png" width="600">
+<img src="images/landingpagehover.png" width="1000">
 
-On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name. 
+On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name.  
+Users can scroll down, or click **START** button to type in names and start receiving information associated to these names. 
+
+**User-custom Data Visualization**
+
+````
+function nameSubmit(){
+  let name = document.querySelector("#name").value;
+  ageurl = 'https://api.agify.io?name=' + name;
+  nationalurl = 'https://api.nationalize.io/?name=' + name;
+  genderurl = 'https://api.genderize.io?name=' + name;
+  //fetchcing age url & store result 
+  fetch(ageurl)
+  .then(response => response.json())
+  .then((ageData) => {
+    resultAge = ageData.age;
+    resultName = ageData.name;
+    console.log(resultAge);
+    console.log(resultName);
+  })
+````
+
+On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, alongside the name, the age, and the nationality are written in text format in the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Above shows an example of how the data from the agify API is fetched and used.
 
 
+<img src="images/custom1.png" width="600">
+
+Just like any dataset, there are For example, if I type in eraser, that is not within the data set, I added an alert system that notifies that 'this name is undefined'
 
 ## Part 2: Experiment & Critical Analysis 
 
