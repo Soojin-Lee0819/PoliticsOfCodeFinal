@@ -60,7 +60,7 @@ Users can scroll down, or click **START** button to type in names and start rece
 
 <img src="images/usercustom1.png" width="600">
 
-On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, alongside the name, the age, and the nationality are written in text format in the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Below shows an example of how the data from the agify API is fetched and used.
+On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, the name, the age, and the nationality are written in text format inside the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Below shows an example of how the data from the agify API is fetched and used.
 
 ````
 function nameSubmit(){
@@ -78,11 +78,12 @@ function nameSubmit(){
     console.log(resultName);
   })
 ````
+<img src="images/notfound.png" width="600">
 
+When the user type in the name value that is not within the dataset, it will give user with an alert "this name is undefined". Such lack of the complete data can lead to biases. For example, the data used to train Amazon's facial recognition was mostly based on white faes, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
 
-As seen from the bias in Amazon resume recommendation, the lack of complete data can lead to biases. The data set in the API does not reflect the entire population on the earth. It only works based on the sample population used to create a dataset. For example, the data used to train Amazon's facial recognition was mostly based on white faes, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
+While exploring this interactive data visualization section, users will be able to notice that certain names are significantly underrepresented. Examples and the detail will be shared at part2 experiment and analysis. 
 
-The method for how the names and the associated data are collected weren't specified, while exploring this website, users will be able to notice that certain names are significantly underrepresented. For the names that are not within the data set, or if the user type-in non-name objects like eraser, I added an alert system that notifies that 'this name is undefined'. 
 
 
 ## Part 2: Experiment & Critical Analysis 
