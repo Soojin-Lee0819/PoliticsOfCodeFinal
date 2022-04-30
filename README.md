@@ -1,8 +1,7 @@
 # Politics of Code Final
 
-**Title**: What Data Tells About Us  <br>
-**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name. Using the web application, I explored different demographic groups and analyzed some existing biases and within the data as well as how it could impact. of the predicted age, the nationality, and the gender of the names around the wrold.
-Part 2: Using the data visualization model to understand the biases in names and the demographics of certain group seen through data <br>
+**Title**: What Data Tells About Us <br>
+**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name.This project explores the world demographic through lens of data while examining AI bias in names. 
 **Category**: Final Project <br>
 **Date**: 20 Apr - 2 May 2022 <br>
 **Deliverable**: 1. CSS/HTML/Javascript/API Data Visualization 2. Experiment & Critical Analysis <br>
@@ -13,6 +12,20 @@ Part 2: Using the data visualization model to understand the biases in names and
 <img src="images/gamepage.png" width="600">
 
 ## Project Brief
+
+AI Machines are increasingly being used to make all kinds of important decisions like who can open a bank account, what kind of health insurance coverage, or who makes it to the interview. AI has many positive benefits, like freeing up our time to do more chllenging tasks. However, despite the repeated claim that data-driven approaches are more objective than the past methods with potential human biases and errors, they do in fact take after their makers.  
+
+This is why we hear AI bias accidents such as  [Google’s facial recognition algorithm labeled black people as gorillas 
+](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system] (https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
+
+
+AI bias is a phenomenon that occurs when an algorithm produces results that are systemically prejudiced due to errornesous assumptions in the machine learning process. AI machines are essentially trained 
+
+This project started from a recent issue 
+
+Through this  we explore the world demographic through 
+
+It is not only the algorithm machine. Hiring managers too, may make judgments based on conscious or unconscious race or gender bias. 
 
 We are categorized by dataset. 
 Elaborating on the game project I created for Connections Lab class, I have made a series of research on visualizing the world through information inferred by data. 
