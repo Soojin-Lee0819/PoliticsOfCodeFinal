@@ -35,11 +35,10 @@ On to this complex issues in data algorithm, human biases associated to names, a
 
 ## Part 1: Developing Data Visualization using API
 
-For the ConnectionsLab class, I created a data visualization game where players type in a name . I have elaborated on this project to add Gender API
-The first part of the project was to develop a data visualization website ausing APIs. 
+This project was developed upon the data visualization game project I made for the ConnectionsLab class. Originally, I used two APIs that give the predicted age and the nationality of the given name. Onto this gamified version of data visualizatio, I added the third API: **genderAPI** to create a data visualization model that explores the world demogrphics. 
 
 
-For this project, I am using three APIs which are: 
+In total, I have used three APIs which are:
 
 [agify API](https://api.agify.io/?name=michael) - An API for predicting the age of a person given their name.
 
@@ -47,8 +46,10 @@ For this project, I am using three APIs which are:
 
 [gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name
 
+**Landing Page**
+<img src="images/mainpage.png" width="600">
 
-A person's name tells a lot about one’s identity. Albeit subconsciously, once we hear names, we immediately associate the names with the name owners' genders, nationalities, and even their ages. For example, my name “Soojin” is a typical Korean female name in Korea that people who are familiar with Korean culture would immediately start making assumptions about me upon introduction. For this project, using two APIs (agify API, nationalize API), that predict the age, and the nationality of the given name, I created a data visualization game. There are two elements to this project. The first is data visualization and the second is gamification. For the data visualization part, when the players type in a name and hit submit, the data about the name (the predicted age and the predicted nationality of the name) will be displayed in the form of bubbles. Based on this data visualization, the game was built. The predicted age will be added to the player's total ‘Age Score’. When the collective Age Score is above 500, the player win! But there’s a catch: if the player enters two names from the same country, the player lose! This game is for people who are culturally conscious, curious about human diversity, or people who live in a diverse community like the community members of NYUAD. Through the process of playing, I hope players have fun finding interesting data about the names around the world but also think critically about the biases and labels that exist in names and identities.
+On the landing page, 
 
 
 
