@@ -1,27 +1,36 @@
 # Politics of Code Final
 
 **Title**: AI  <br> 
-**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name. This project explores the world demographic through the lens of data while critically examining the AI biases in names. <br> 
+**Author**: Soojin <br> 
 **Category**: Final Project <br> 
 **Date**: 20 Apr - 2 May 2022 <br> 
 **Deliverable**: 1. CSS/HTML/Javascript/API Data Visualization 2. Experiment & Critical Analysis <br>
+
+## Project Brief
+
+Using three APIs that predict the age, the nationality, and the gender of the given name, I developed a web-based data visualization model that visualizes data associated with names. This project explores the world demographic through the lens of data, such as the 10 most powerful people and Interactive Media Faculty of NYUAD, while critically examining the AI biases in names. <br> 
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
 <img src="images/mainpage.png" width="600">
 <img src="images/gamepage.png" width="600">
 
-## Project Brief
 
-AI Machines are increasingly being used to make all kinds of important decisions like who can open a bank account, what kind of health insurance coverage, or who makes it to the interview. AI has many positive benefits, like freeing up our time to do more chllenging tasks. However, despite the repeated claim that data-driven approaches are more objective than the past methods with potential human biases and errors, they do in fact take after their makers.  
 
-This is why we hear AI bias accidents such as  [Google’s facial recognition algorithm labeled black people as gorillas 
-](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system] (https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
+## Context
+
+AI Machines are increasingly being used to make all kinds of important decisions including who can or cannot open a bank account, what kind of health insurance coverage, or who is selected to the interview. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating work. However, despite the repeated claim that data-driven approaches are more objective than the past methods with human biases and errors, AI machines do in fact take after their makers. Most of the AI programs use machine learning, which is __ Machine learning model in essence is  It is true that once the machine training model is trainned, the work can be autonomized without much human intervention. However, for the these AI machines need to be trained with human data.  
+
+This is why there were AI bias accidents such as  [Google’s facial recognition algorithm labeled black people as gorillas 
+](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system] (https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G). 
 
 
 AI bias is a phenomenon that occurs when an algorithm produces results that are systemically prejudiced due to errornesous assumptions in the machine learning process. AI machines are essentially trained 
 
-This project started from a recent issue 
+
+Nevertheless, there is an overwhelming amount of real-world examplesof how bias in machine learning algorithsm are discirminating against people and reinforcing injustices in our society. 
+
+On to this complex modern issue, I wanted to explore the __.
 
 Through this  we explore the world demographic through 
 
