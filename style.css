@@ -40,7 +40,7 @@ html, body {
 }
 .soojinName:hover:after{
   font-size: 1.8vw;
-  content:"Soojin \A South Korea \A 43 yrs";
+  content:"Soojin \A South Korea \A Female \A 43 yrs";
   white-space: pre-wrap;
 }
 
@@ -66,7 +66,7 @@ html, body {
 
 .joergName:hover:after{
   font-size: 1.8vw;
-  content:"Joerg \A Germany \A 61 yrs";
+  content:"Joerg \A Germany \A Male \A 61 yrs";
   white-space: pre-wrap;
   margin:0;
 }
