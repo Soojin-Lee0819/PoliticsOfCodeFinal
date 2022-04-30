@@ -142,7 +142,8 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 - Riyadh Baghdadi
 - Hanan Salam
 - Yasir Zaki
-
+ 
+<br><br>
 
 ### 10 Most Powerful People
 
@@ -159,3 +160,9 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 - Mohammed bin Salman Al Saud
 - Narendra Modi
 - Larry Page
+
+
+
+### 10 most popular names by Country Korea | US | Peru | Ghana
+
+
