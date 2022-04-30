@@ -1,6 +1,6 @@
 # Politics of Code Final
 
-**Title**: AI  <br> 
+**Title**: Baises in Names and AI <br> 
 **Author**: Soojin <br> 
 **Category**: Final Project <br> 
 **Date**: 20 Apr - 2 May 2022 <br> 
@@ -8,7 +8,7 @@
 
 ## Project Brief
 
-Using three APIs that predict the age, the nationality, and the gender of the given name, I developed a web-based data visualization model that visualizes the data associated with names. This project explores the world demographic through the lens of data, such as the 10 most powerful people, or the Interactive Media Faculty of NYUAD. While exploring the different groups of people and their names, we critically examine the AI biases in names and its potential impact. <br> 
+Using three APIs that predict the age, the nationality, and the gender of the given name, I developed a web-based data visualization model that visualizes the data associated with names. This project explores the world demographic through the lens of data, such as the 10 most powerful people, or the Interactive Media Faculty of NYUAD. While exploring the different groups of people and their names, we critically examine the AI biases in names and its impact. <br> 
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
@@ -19,11 +19,16 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 ## Project Description
 
-AI Machines are increasingly being used to make all kinds of important decisions including who can open a bank account, what kind of health insurance coverage, or the job screenings. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating our work. However, despite the repeated claim that data-driven approaches are more objective than the past methods, AI machines don't seem to liberate us from thousands of years of human bias. Most of the AI programs use machine learning, which require data training. It is true that once the machine learning is trainned, the work can be done autonomously without much human intervention, but it is important to notice that AI machines are essentially trainned with human data and are programmed by huamn. This is why AI systems continue to project existing human biases, and further exacerbate those biases at a much faster rate. 
+AI (Articifial Intelligence) Machines are increasingly being used to make all kinds of important decisions including who can open a bank account (or who can't), what kind of health insurance coverage, or the job screenings. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating our work. 
 
-This is why we hear about AI bias mishaps such as  [Google’s facial recognition algorithm labeled black people as gorillas 
-](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system
-](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) where the algorithm taught it self that male candidates were preferable, penalizing the resumes containing the word "women". This isn't because Amazon has purposfully programmed it's screen machine to reject women applicants. Instead, it trained its algorithm using a decade of resumes from mostly white male applicants, which its algorithm repliaceted historical hiring patterns, discriminating against women applicants. Although Amazon abaondoned the tool in 2017 before deployment, it illustrates how algorithms can reproduce existing pattenrs of inequality. 
+However, despite the repeated claim that data-driven approaches are more objective than the past human methods, AI machines don't seem to liberate us completely from thousands of years of human bias. This is because most of the AI programs use machine learning, which are done through data training. It is true that once the machine learning is trainned, the work can be done autonomously without much human intervention, but it is worthwhile mentioning that AI machines are essentially trainned with human data and are programmed by huamn. This is one of many reasons why AI systems continue to project existing human biases, and further exacerbate those biases at a much faster rate. 
+
+
+We hear about many AI bias mishaps such as  [Google’s facial recognition algorithm labeled black people as gorillas ](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system
+](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) where the algorithm taught it self that male candidates were preferable, penalizing the resumes containing the word "women". This isn't because Amazon has intentionally programmed it's screen machine to reject women applicants. Instead, it trained its algorithm using a decade of resumes from mostly white male applicants, which its algorithm repliaceted historical hiring patterns, discriminating against women applicants. Although Amazon abaondoned the tool in 2017 before deployment, it illustrates how algorithms can reproduce existing pattenrs of inequality. 
+
+
+
 
 Such algorithmic bias in hiring process is highly unfair and frustrating for many college students. Programs that review resumes can lead to discrimination if resumes include a black-sounding name, female-sounding name, Jewish-sounding name, or Muslim-sounding-names. This can be proven by how Jahanzaib Ansari, who was facing the dead end for his CV changed his first name on his resume to Anglicized version such as Jason, Jordan, and saw the immediate results. 
 
