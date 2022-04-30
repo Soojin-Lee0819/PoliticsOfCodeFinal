@@ -12,6 +12,10 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
+
+[Access Presentation Deck Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
+
+
 <img src="images/mainpage.png" width="600">
 <img src="images/gamepage.png" width="600">
 
