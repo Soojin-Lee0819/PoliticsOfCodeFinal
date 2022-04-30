@@ -169,14 +169,25 @@ Similar to the IM faculties of NYUAD, it is quite obvious that most of the names
 **Korea**
 <img src="images/korean.png" width="1000">
 
+Among 10 most populat names in Korea (5 boys and 5 girls) only 3 were identified within the dataset. Among these three, the name Jian is predicted to be Chinese name. While Jian can be both Korean or Chinese name, since China has larger population, when the data entry in China is compared to Korea with smaller population, China will always have higher number and the name would be classified as Chinese name. Such pattern is found in traditionally Western name like Lily as well. 
+
+
+
 **United States**
 <img src="images/us.png" width="1000">
+
+
+Unlike Korean names, all top 10 popular names in the United States were availalble within the dataset. Although all names were available, most of the names were identified as non-US contries such as Iran, Uganda, Germany, Madagascar, British Virgin Islands and more. 
 
 **Indonesia**
 <img src="images/indonesia.png" width="1000">
 
+For Indonesia 4 out of 10 names were found. 
+
 **Ethiopia**
 <img src="images/ethiopia.png" width="1000">
+
+For Ethiopia, 7 out of 10 names were found. 
 
 
 
