@@ -171,11 +171,12 @@ Similar to the IM faculties of NYUAD, it is quite obvious that most of the names
 ### 10 most popular names by Country Korea | US | Indonesia | Ethiopia 
 
 **Korea**
+
 <img src="images/korean.png" width="1000">
 
 Among 10 most populat names in Korea (5 boys and 5 girls) only 3 were identified within the dataset. Among these three, the name Jian is predicted to be Chinese name. While Jian can be both Korean or Chinese name, since China has larger population, when the data entry in China is compared to Korea with smaller population, China will always have higher number and the name would be classified as Chinese name. Such pattern is found in traditionally Western name like Lily as well. 
 
-
+<br><br>
 
 **United States**
 <img src="images/us.png" width="1000">
@@ -183,19 +184,24 @@ Among 10 most populat names in Korea (5 boys and 5 girls) only 3 were identified
 
 Unlike Korean names, all top 10 popular names in the United States were availalble within the dataset. Although all names were available, most of the names were identified as non-US contries such as Iran, Uganda, Germany, Madagascar, British Virgin Islands and more. 
 
+<br><br>
+
 **Indonesia**
 <img src="images/indonesia.png" width="1000">
 
 For Indonesia 4 out of 10 names were found. 
+
+<br><br>
 
 **Ethiopia**
 <img src="images/ethiopia.png" width="1000">
 
 For Ethiopia, 7 out of 10 names were found. 
 
+<br><br>
 
 ### Reflection 
 
-Above are some of the demographics that I've explored using the data visualization website that I developed. However, there are many other applications one can make such as to find out the demographics of anonymous donors, to have an estimation of the guest list for the party etcetera. Developing this data visualization, I started to think more about the power and the responsibilities of developers in making ethical choices when processing and visualizing data. I was confronted with a moral delima when I had to identify the gender binary as either male or female. Although it was a representation of assumption made about names based on data, I found it wrong to narrow down gender into the category of two. 
+Above are some of the examples that I've explored using the data visualizationprogram I created. However, there are many other experiments and analysis one can make such as to find out the demographics of anonymous donors. While creating this project, I started to think more about the power and the responsibilities in making ethical choices when processing and visualizing data. I was confronted with a moral challenge when I had to identify the gender either as male or female, while in reality, it is a spectrum. 
 
-When comparing the names or the countries, I was challenged by the popular name data that are collected differently - hence affecting the result. As such when data are translated to code and visualized to make statement, there are so much human biases and errors that can infiltrated through the system. I hope this project can help people to think critically about the bias in data through an interactive engagement with the website. 
+When comparing the names or the countries, it was challenging to find name list with the same variables. Each dataset had different variables such as the date of data colleciton, the scope of data collection, and for what purpose it was collected for. Without standardizing this, comparing the outcome wouldn't be accurate. As such when data is processed and translated into an assumption,there are so much human biases and errors that are being made along the process. Through this process, I hope people have chance to think critically about the bias in data and what are some responsibilities we have as an interactive media scholars to mitigate this complex issue when working on projects or engagin with data. 
