@@ -190,4 +190,6 @@ For Indonesia 4 out of 10 names were found.
 For Ethiopia, 7 out of 10 names were found. 
 
 
+Above are some of the demographics that I've explored using the data visualization website that I developed. However, there are many other applications one can make such as to find out the demographics of anonymous donors, to have an estimation of the guest list for the party etcetera. Developing this data visualization, I started to think more about the power and the responsibilities of developers in making ethical choices when processing and visualizing data. I was confronted with a moral delima when I had to identify the gender binary as either male or female. Although it was a representation of assumption made about names based on data, I found it wrong to narrow down gender into the category of two. 
 
+When comparing the names or the countries, I was challenged by the popular name data that are collected differently - hence affecting the result. As such when data are translated to code and visualized to make statement, there are so much human biases and errors that can infiltrated through the system. I hope this project can help people to think critically about the bias in data through an interactive engagement with the website. 
