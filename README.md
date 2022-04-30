@@ -78,9 +78,13 @@ function nameSubmit(){
     console.log(resultName);
   })
 ````
+
+
+**Data Not Found** 
+
 <img src="images/notfound.png" width="600">
 
-When the user type in the name value that is not within the dataset, it will give user with an alert "this name is undefined". Such lack of the complete data can lead to biases. For example, the data used to train Amazon's facial recognition was mostly based on white faes, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
+When the user type in the name value that is not within the dataset, it will give user with an alert "this name is undefined". Such lack of the complete data can lead to biases. For example, the data used to train Amazon's facial recognition was mostly based on white faces, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
 
 While exploring this interactive data visualization section, users will be able to notice that certain names are significantly underrepresented. Examples and the detail will be shared at part2 experiment and analysis. 
 
@@ -88,18 +92,20 @@ While exploring this interactive data visualization section, users will be able 
 
 ## Part 2: Experiment & Critical Analysis 
 
-Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People](https://www.forbes.com/powerful-people/list/
+I experimented visualizing the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People](https://www.forbes.com/powerful-people/list/
 ) by Forbes.
+
+<br>
 
 ### NYUAD Interactive Media Faculty
 
 
 <img src="images/IMfaculty.png" width="600">
 
-Professor Mathura's In this simplification, three different professors Michael Allison, Michael . This shows how depending of how we process the data, the outcome can be significantly different. 
+I typed in the first name of all the IM faculties at NYUAD. Among 8 faculties, Professor Mathura's first name, was undefined. According to the data inferred demographics, it is clear that most of the IM faculties are male and everyone is from the Western country including United States, Germany and Sweden. It also shows the simplificaiton of data, where while there are three different individuals, Michael Allison, Michael Ang, and Michael Shiloh, in this specific data processing where it profile a person based on their first name, three of them share the same identity. 
 
 
-**List of IM faculties in Abu Dhabi**
+**Try it yourself!**
 - Aaron Sherwood
 - Michael Allison
 - Michael Ang
