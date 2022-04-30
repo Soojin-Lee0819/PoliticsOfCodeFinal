@@ -166,10 +166,10 @@ Similar to the IM faculties of NYUAD, it is quite obvious that most of the names
 
 ### 10 most popular names by Country Korea | US | Indonesia | Ethiopia 
 
-<img src="images/korean.png" width="600">
-<img src="images/us.png" width="600">
-<img src="images/indonesia.png" width="600">
-<img src="images/ethiopia.png" width="600">
+<img src="images/korean.png" width="1000">
+<img src="images/us.png" width="1000">
+<img src="images/indonesia.png" width="1000">
+<img src="images/ethiopia.png" width="1000">
 
 
 
