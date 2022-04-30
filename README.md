@@ -47,13 +47,20 @@ In total, I have used three APIs which are:
 [gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name. 
 
 
-**Landing Page**
+### Landing Page
+
 <img src="images/landingpagehover.png" width="1000">
 
 On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name.  
 Users can scroll down, or click **START** button to type in names and start receiving information associated to these names. 
 
-**User-custom Data Visualization**
+
+
+### User-Custom Data Visualization
+
+<img src="images/usercustom1.png" width="600">
+
+On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, the name, the age, and the nationality are written in text format inside the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Below shows an example of how the data from the agify API is fetched and used.
 
 ````
 function nameSubmit(){
@@ -72,27 +79,33 @@ function nameSubmit(){
   })
 ````
 
-On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, alongside the name, the age, and the nationality are written in text format in the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Above shows an example of how the data from the agify API is fetched and used.
+
+**Data Not Found** 
+
+<img src="images/notfound.png" width="600">
+
+When the user type in the name value that is not within the dataset, it will give user with an alert "this name is undefined". Such lack of the complete data can lead to biases. For example, the data used to train Amazon's facial recognition was mostly based on white faces, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
+
+While exploring this interactive data visualization section, users will be able to notice that certain names are significantly underrepresented. Examples and the detail will be shared at part2 experiment and analysis. 
 
 
-<img src="images/custom1.png" width="600">
-
-Just like any dataset, there are For example, if I type in eraser, that is not within the data set, I added an alert system that notifies that 'this name is undefined'
 
 ## Part 2: Experiment & Critical Analysis 
 
-Using the data visualization website created above, I visualized the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People](https://www.forbes.com/powerful-people/list/
+I experimented visualizing the demographics of certain groups including: Interactive Media Faculty at NYUAD, Computer Science Faculty at NYUAD, and the [The World's Most Powerful People](https://www.forbes.com/powerful-people/list/
 ) by Forbes.
+
+<br>
 
 ### NYUAD Interactive Media Faculty
 
 
 <img src="images/IMfaculty.png" width="600">
 
-Professor Mathura's In this simplification, three different professors Michael Allison, Michael . This shows how depending of how we process the data, the outcome can be significantly different. 
+I typed in the first name of all the IM faculties at NYUAD. Among 8 faculties, Professor Mathura's first name, was undefined. According to the data inferred demographics, it is clear that most of the IM faculties are male and everyone is from the Western country including United States, Germany and Sweden. It also shows the simplificaiton of data, where while there are three different individuals, Michael Allison, Michael Ang, and Michael Shiloh, in this specific data processing where it profile a person based on their first name, three of them share the same identity. 
 
 
-**List of IM faculties in Abu Dhabi**
+**Try it yourself!**
 - Aaron Sherwood
 - Michael Allison
 - Michael Ang
@@ -103,16 +116,14 @@ Professor Mathura's In this simplification, three different professors Michael A
 - Michael Shiloh
 
 
-
+<br><br>
 
 
 ### NYUAD Computer Science Faculty
 
 <img src="images/CSfaculty.png" width="600">
 
-Some names were simply not available in the dataset. Since most of the data are collected from Western countries, alini
-
-
+For the CS faculties of NYUAD, the more diverse demogrpahics were represented from countries including Morocco, Pakistan, India, Jordan and more. Yet there were names that are not found such as Professor Moumena and Professor Dijellel's first name. 
 
 **List of CS faculties in Abu Dhabi**
 - Azza Abouzied
@@ -131,7 +142,8 @@ Some names were simply not available in the dataset. Since most of the data are 
 - Riyadh Baghdadi
 - Hanan Salam
 - Yasir Zaki
-
+ 
+<br><br>
 
 ### 10 Most Powerful People
 
@@ -148,3 +160,9 @@ Some names were simply not available in the dataset. Since most of the data are 
 - Mohammed bin Salman Al Saud
 - Narendra Modi
 - Larry Page
+
+
+
+### 10 most popular names by Country Korea | US | Peru | Ghana
+
+
