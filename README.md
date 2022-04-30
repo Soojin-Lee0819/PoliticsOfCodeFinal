@@ -55,6 +55,10 @@ Users can scroll down, or click **START** button to type in names and start rece
 
 **User-custom Data Visualization**
 
+<img src="images/usercustom1.png" width="600">
+
+On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, alongside the name, the age, and the nationality are written in text format in the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Below shows an example of how the data from the agify API is fetched and used.
+
 ````
 function nameSubmit(){
   let name = document.querySelector("#name").value;
@@ -71,11 +75,6 @@ function nameSubmit(){
     console.log(resultName);
   })
 ````
-
-On submit, the information for each name is fetched from the three APIs, and are displayed in specific HTML/CSS format. For example, alongside the name, the age, and the nationality are written in text format in the bubbles, and the predicted gender is visualized through the color of the bubble - yellow for female, and blue for male. The size of the bubble is proportional to the age. Above shows an example of how the data from the agify API is fetched and used.
-
-
-<img src="images/custom1.png" width="600">
 
 Just like any dataset, there are For example, if I type in eraser, that is not within the data set, I added an alert system that notifies that 'this name is undefined'
 
