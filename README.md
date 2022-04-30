@@ -35,7 +35,7 @@ On to this complex issues in data algorithm, human biases associated to names, a
 
 ## Part 1: Developing Data Visualization using API
 
-This project was developed upon the data visualization game project I made for the ConnectionsLab class. Originally, I used two APIs that give the predicted age and the nationality of the given name. Onto this gamified version of data visualizatio, I added the third API: **genderAPI** to create a data visualization model that explores the world demogrphics. 
+This project was developed upon the data visualization game project, which I made for the class ConnectionsLab. For the previous proejct, I only used two APIs (nationalize API and agify API) that give the predicted age and the nationality of the given name. Expanding on this project,I added the third API: **genderAPI** that gives the predicted gender of the game, to create a data visualization model that shows the demographic of the world explored through names.
 
 
 In total, I have used three APIs which are:
@@ -49,7 +49,7 @@ In total, I have used three APIs which are:
 **Landing Page**
 <img src="images/mainpage.png" width="600">
 
-On the landing page, 
+On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name. 
 
 
 
