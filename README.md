@@ -47,13 +47,16 @@ In total, I have used three APIs which are:
 [gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name. 
 
 
-**Landing Page**
+### Landing Page
+
 <img src="images/landingpagehover.png" width="1000">
 
 On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name.  
 Users can scroll down, or click **START** button to type in names and start receiving information associated to these names. 
 
-**User-custom Data Visualization**
+
+
+### User-Custom Data Visualization
 
 <img src="images/usercustom1.png" width="600">
 
@@ -76,7 +79,11 @@ function nameSubmit(){
   })
 ````
 
-Just like any dataset, there are For example, if I type in eraser, that is not within the data set, I added an alert system that notifies that 'this name is undefined'
+
+As seen from the bias in Amazon resume recommendation, the lack of complete data can lead to biases. The data set in the API does not reflect the entire population on the earth. It only works based on the sample population used to create a dataset. For example, the data used to train Amazon's facial recognition was mostly based on white faes, leading to issues detecting darker-skinned faces. Another example of representation bias is datasets collected through smartphone apps, which ended up not representing lower-income or older demographics. 
+
+The method for how the names and the associated data are collected weren't specified, while exploring this website, users will be able to notice that certain names are significantly underrepresented. For the names that are not within the data set, or if the user type-in non-name objects like eraser, I added an alert system that notifies that 'this name is undefined'. 
+
 
 ## Part 2: Experiment & Critical Analysis 
 
