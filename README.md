@@ -17,7 +17,7 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 
 
-## Context
+## Project Description
 
 AI Machines are increasingly being used to make all kinds of important decisions including who can open a bank account, what kind of health insurance coverage, or the job screenings. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating our work. However, despite the repeated claim that data-driven approaches are more objective than the past methods, AI machines don't seem to liberate us from thousands of years of human bias. Most of the AI programs use machine learning, which require data training. It is true that once the machine learning is trainned, the work can be done autonomously without much human intervention, but it is important to notice that AI machines are essentially trainned with human data and are programmed by huamn. This is why AI systems continue to project existing human biases, and further exacerbate those biases at a much faster rate. 
 
