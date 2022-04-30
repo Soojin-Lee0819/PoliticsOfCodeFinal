@@ -21,7 +21,7 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 AI (Articifial Intelligence) Machines are increasingly being used to make all kinds of important decisions including who can open a bank account (or who can't), what kind of health insurance coverage, or the job screenings. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating our work. 
 
-However, despite the repeated claim that data-driven approaches are more objective than the past human methods, AI machines don't seem to liberate us completely from thousands of years of human bias. This is because most of the AI programs use machine learning, which are done through data training. It is true that once the machine learning is trainned, the work can be done autonomously without much human intervention, but it is worthwhile mentioning that AI machines are essentially trainned with human data and are programmed by huamn. This is one of many reasons why AI systems continue to project existing human biases, and further exacerbate those biases at a much faster rate. 
+However, despite the repeated claim that data-driven approaches are more objective than the past human methods, AI machines don't seem to liberate us completely from the thousands of years of human bias. This is because most of the AI programs use machine learning, which are done through data training. It is true that once the machine learning is trainned, the work can be done autonomously without much human intervention. However, AI machines are essentially trainned with human data and are programmed by huamn that it is inevitable for AI systems to continue projecting existing human biases, and further exacerbate those biases at a much faster rate. 
 
 
 We hear about many AI bias mishaps such as  [Google’s facial recognition algorithm labeled black people as gorillas ](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system
@@ -29,12 +29,24 @@ We hear about many AI bias mishaps such as  [Google’s facial recognition algor
 
 
 
+Due to this bias encoded in world embeddings, resumes that include a black-sounding name, female-sounding name, Jewish-sounding name, or Muslim-sounding-names programs are disciminated against the others. For example when Jahanzaib Ansari was looking for work in 2016m his job search hit a dead end, despite his qualified skills and experiences. It is only after Anglicizing his name to variations including Jason, Jordan and Jacob, he saw the immediate results. Such algorithmic bias in hiring process due to algorithmic blind scpots is highly unfair and frustrating. 
 
-Such algorithmic bias in hiring process is highly unfair and frustrating for many college students. Programs that review resumes can lead to discrimination if resumes include a black-sounding name, female-sounding name, Jewish-sounding name, or Muslim-sounding-names. This can be proven by how Jahanzaib Ansari, who was facing the dead end for his CV changed his first name on his resume to Anglicized version such as Jason, Jordan, and saw the immediate results. 
-
-On to this complex issues in data algorithm, human biases associated to names, and its impact, I developed a web-based data visualization app that allows people to receive an information about the given name and the associated qualiteis such as gender, nationality, and age. Explopring the inferred profile of each individuals and looking at the world demographic through the lens data, the project invites people to critically examine the AI biases in names and its impact. 
+On to this complex issues in data algorithm, human biases associated to names, and its impact, I developed an interactive data visualization website that allows people to type in a name to receive an information about the given name such as gender, nationality, and age. Explopring the inferred profile of each name and looking at the bigger demographic of the people through the lens data, the project invites people to critically examine the biases in machine learning AIs and its impact. 
 
 ## Part 1: Developing Data Visualization using API
+
+For the ConnectionsLab class, I created a data visualization game where players type in a name . I have elaborated on this project to add Gender API
+The first part of the project was to develop a data visualization website ausing APIs. 
+
+
+For this project, I am using three APIs which are: 
+
+[agify API](https://api.agify.io/?name=michael) - An API for predicting the age of a person given their name.
+
+[nationalize API](https://nationalize.io) - An API for predicting nationality from a name.
+
+[gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name
+
 
 A person's name tells a lot about one’s identity. Albeit subconsciously, once we hear names, we immediately associate the names with the name owners' genders, nationalities, and even their ages. For example, my name “Soojin” is a typical Korean female name in Korea that people who are familiar with Korean culture would immediately start making assumptions about me upon introduction. For this project, using two APIs (agify API, nationalize API), that predict the age, and the nationality of the given name, I created a data visualization game. There are two elements to this project. The first is data visualization and the second is gamification. For the data visualization part, when the players type in a name and hit submit, the data about the name (the predicted age and the predicted nationality of the name) will be displayed in the form of bubbles. Based on this data visualization, the game was built. The predicted age will be added to the player's total ‘Age Score’. When the collective Age Score is above 500, the player win! But there’s a catch: if the player enters two names from the same country, the player lose! This game is for people who are culturally conscious, curious about human diversity, or people who live in a diverse community like the community members of NYUAD. Through the process of playing, I hope players have fun finding interesting data about the names around the world but also think critically about the biases and labels that exist in names and identities.
 
