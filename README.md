@@ -149,6 +149,8 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 
 <img src="images/powerfulpeople.png" width="600">
 
+Similar to the IM faculties of NYUAD, it is quite obvious that most of the names are identified as male as shown via the color palette of the bubbles. 
+
 **List of 10 Most Powerful People**
 - Xi Jinping
 - Vladimir Putin
@@ -162,7 +164,12 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 - Larry Page
 
 
+### 10 most popular names by Country Korea | US | Indonesia | Ethiopia 
 
-### 10 most popular names by Country Korea | US | Peru | Ghana
+<img src="images/korean.png" width="600">
+<img src="images/us.png" width="600">
+<img src="images/indonesia.png" width="600">
+<img src="images/ethiopia.png" width="600">
+
 
 
