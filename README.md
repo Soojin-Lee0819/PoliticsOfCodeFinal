@@ -8,7 +8,7 @@
 
 ## Project Brief
 
-Using three APIs that predict the age, the nationality, and the gender of the given name, I developed a web-based data visualization model that visualizes data associated with names. This project explores the world demographic through the lens of data, such as the 10 most powerful people and Interactive Media Faculty of NYUAD, while critically examining the AI biases in names. <br> 
+Using three APIs that predict the age, the nationality, and the gender of the given name, I developed a web-based data visualization model that visualizes the data associated with names. This project explores the world demographic through the lens of data, such as the 10 most powerful people, or the Interactive Media Faculty of NYUAD. While exploring the different groups of people and their names, we critically examine the AI biases in names and its potential impact. <br> 
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
@@ -19,7 +19,8 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 ## Context
 
-AI Machines are increasingly being used to make all kinds of important decisions including who can or cannot open a bank account, what kind of health insurance coverage, or who is selected to the interview. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating work. However, despite the repeated claim that data-driven approaches are more objective than the past methods with human biases and errors, AI machines do in fact take after their makers. Most of the AI programs use machine learning, which is __ Machine learning model in essence is  It is true that once the machine training model is trainned, the work can be autonomized without much human intervention. However, for the these AI machines need to be trained with human data.  
+AI Machines are increasingly being used to make all kinds of important decisions including who can open a bank account, what kind of health insurance coverage, or the job screenings. AI has many positive benefits, like freeing up our time to do more chllenging tasks or automating our work. However, despite the repeated claim that data-driven approaches are more objective than the past methods with potential biases and errors, AI machines do in fact take after their makers. Most of the AI programs use machine learning, which require data training. While it is true that once the model is trainned, the work can be autonomized without much human intervention, but it is important to realize that these AI machines are trainned with human data and are programmed by huamn. This is why AI systems continue to project historical human biases, and further exacerbate those biases at a much faster rate.
+
 
 This is why there were AI bias accidents such as  [Google’s facial recognition algorithm labeled black people as gorillas 
 ](https://www.forbes.com/powerful-people/list/) or more recent [mishap with Amazon’s resume recommendation system] (https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G). 
