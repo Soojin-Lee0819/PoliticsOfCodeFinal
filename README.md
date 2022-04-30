@@ -46,11 +46,16 @@ In total, I have used three APIs which are:
 
 [gender API](https://genderize.io/?gclid=EAIaIQobChMIsfmD9dP_9QIVCcPVCh1d1gvhEAAYAiAAEgIeFfD_BwE) - An API to predict the gender of a person given their name
 
+
 **Landing Page**
 <img src="images/mainpage.png" width="600">
 
 On the landing page, there are two examples - Soojin and Joerg. On hover, users can view the predicted age, nationality and the age of the given name. 
 
+
+**User-custom Data Visualization**
+
+For example, if I type in eraser, that is not within the data set, I added an alert system that notifies that 'this name is undefined'
 
 
 ## Part 2: Experiment & Critical Analysis 
