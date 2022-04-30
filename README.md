@@ -12,6 +12,10 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
+
+[Access Presentation Deck Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
+
+
 <img src="images/mainpage.png" width="600">
 <img src="images/gamepage.png" width="600">
 
@@ -149,6 +153,8 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 
 <img src="images/powerfulpeople.png" width="600">
 
+Similar to the IM faculties of NYUAD, it is quite obvious that most of the names are identified as male as shown via the color palette of the bubbles. 
+
 **List of 10 Most Powerful People**
 - Xi Jinping
 - Vladimir Putin
@@ -162,7 +168,34 @@ For the CS faculties of NYUAD, the more diverse demogrpahics were represented fr
 - Larry Page
 
 
+### 10 most popular names by Country Korea | US | Indonesia | Ethiopia 
 
-### 10 most popular names by Country Korea | US | Peru | Ghana
+**Korea**
+<img src="images/korean.png" width="1000">
+
+Among 10 most populat names in Korea (5 boys and 5 girls) only 3 were identified within the dataset. Among these three, the name Jian is predicted to be Chinese name. While Jian can be both Korean or Chinese name, since China has larger population, when the data entry in China is compared to Korea with smaller population, China will always have higher number and the name would be classified as Chinese name. Such pattern is found in traditionally Western name like Lily as well. 
 
 
+
+**United States**
+<img src="images/us.png" width="1000">
+
+
+Unlike Korean names, all top 10 popular names in the United States were availalble within the dataset. Although all names were available, most of the names were identified as non-US contries such as Iran, Uganda, Germany, Madagascar, British Virgin Islands and more. 
+
+**Indonesia**
+<img src="images/indonesia.png" width="1000">
+
+For Indonesia 4 out of 10 names were found. 
+
+**Ethiopia**
+<img src="images/ethiopia.png" width="1000">
+
+For Ethiopia, 7 out of 10 names were found. 
+
+
+### Reflection 
+
+Above are some of the demographics that I've explored using the data visualization website that I developed. However, there are many other applications one can make such as to find out the demographics of anonymous donors, to have an estimation of the guest list for the party etcetera. Developing this data visualization, I started to think more about the power and the responsibilities of developers in making ethical choices when processing and visualizing data. I was confronted with a moral delima when I had to identify the gender binary as either male or female. Although it was a representation of assumption made about names based on data, I found it wrong to narrow down gender into the category of two. 
+
+When comparing the names or the countries, I was challenged by the popular name data that are collected differently - hence affecting the result. As such when data are translated to code and visualized to make statement, there are so much human biases and errors that can infiltrated through the system. I hope this project can help people to think critically about the bias in data through an interactive engagement with the website. 
