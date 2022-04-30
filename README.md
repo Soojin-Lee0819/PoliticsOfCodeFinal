@@ -1,9 +1,9 @@
 # Politics of Code Final
 
-**Title**: AI  <br> <br>
-**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name. This project explores the world demographic through the lens of data while critically examining the AI biases in names. <br> <br>
-**Category**: Final Project <br> <br>
-**Date**: 20 Apr - 2 May 2022 <br> <br>
+**Title**: AI  <br> 
+**Description**: Using three APIs that predict the age, the nationality, and the gender of the given name, I developed the web-based data visualization model that visualizes data associated with the name. This project explores the world demographic through the lens of data while critically examining the AI biases in names. <br> 
+**Category**: Final Project <br> 
+**Date**: 20 Apr - 2 May 2022 <br> 
 **Deliverable**: 1. CSS/HTML/Javascript/API Data Visualization 2. Experiment & Critical Analysis <br>
 
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
