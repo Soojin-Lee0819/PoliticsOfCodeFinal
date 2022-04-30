@@ -13,7 +13,7 @@ Using three APIs that predict the age, the nationality, and the gender of the gi
 [Access Project Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
 
 
-[Access Presentation Deck Here](https://soojin-lee0819.github.io/PoliticsOfCodeFinal)
+[Access Presentation Deck Here](https://github.com/Soojin-Lee0819/PoliticsOfCodeFinal/blob/main/%20Biases_in_Names_and_AI_Presentation.pdf)
 
 
 <img src="images/mainpage.png" width="600">
