@@ -116,16 +116,14 @@ I typed in the first name of all the IM faculties at NYUAD. Among 8 faculties, P
 - Michael Shiloh
 
 
-
+<br><br>
 
 
 ### NYUAD Computer Science Faculty
 
 <img src="images/CSfaculty.png" width="600">
 
-Some names were simply not available in the dataset. Since most of the data are collected from Western countries, alini
-
-
+For the CS faculties of NYUAD, the more diverse demogrpahics were represented from countries including Morocco, Pakistan, India, Jordan and more. Yet there were names that are not found such as Professor Moumena and Professor Dijellel's first name. 
 
 **List of CS faculties in Abu Dhabi**
 - Azza Abouzied
