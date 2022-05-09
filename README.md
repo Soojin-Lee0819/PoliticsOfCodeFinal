@@ -1,9 +1,9 @@
 # Politics of Code Final
 
-**Title**: Baises in Names and AI <br> 
+**Title**: AI Biases in Names <br> 
 **Author**: Soojin <br> 
 **Category**: Final Project <br> 
-**Date**: 20 Apr - 2 May 2022 <br> 
+**Date**: 25 Apr - 9 May 2022 <br> 
 **Deliverable**: 1. CSS/HTML/Javascript/API Data Visualization 2. Experiment & Critical Analysis <br>
 
 ## Project Brief
